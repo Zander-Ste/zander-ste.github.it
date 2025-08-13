@@ -1,0 +1,98 @@
+body {
+    background-color: #fdfdfa;
+    font-family: 'Courier New', Courier, monospace;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.transcript-container {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 800px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.header {
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.header p {
+    margin: 2px 0;
+}
+
+.header hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+}
+
+.transcript-body {
+    width: 100%;
+}
+
+.transcript-lines {
+    border-left: 1px solid #ddd;
+    padding-left: 20px;
+}
+
+.transcript-line {
+    display: flex; 
+    margin: 0;
+    line-height: 2; 
+}
+
+.line-number {
+    color: #aaa;
+    padding-right: 20px;
+    text-align: right;
+    font-size: 14px;
+    width: 30px; 
+    flex-shrink: 0;
+}
+
+.line-text {
+    flex-grow: 1;
+    font-size: 16px;
+}
+
+.line-text strong {
+    font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+}
+
+.footer p {
+    color: #888;
+    font-size: 12px;
+}
+
+.redirect-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.redirect-button:hover {
+    background-color: #007bff;
+}

@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+    padding: 10px;
+    background-color: #011d3a;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+footer {
+    width: 100%;
+    padding: 10px;
+    background-color: #011d3a;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.content-wrapper {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;    
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.top-content {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+    gap: 50px;             
+    margin-bottom: 40px;    
+}
+
+.image-container {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.main-content {
+    text-align: left;
+    max-width: 40vw; 
+}
+
+.centered-text {
+    font-size: 1.5em;
+    color: #333;
+}
+
+#open-popup-btn, #nextpage-btn {
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+#open-popup-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+#open-popup-btn:hover {
+    background-color: #007bff;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+    
+#nextpage-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+#nextpage-btn:hover {
+    background-color: #007bff;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
